@@ -1,5 +1,6 @@
 body {
- background: #FFFFFF;
+ /*background: #FFFFFF;*/
+background: # 7F90FF;  /* tirado a celeste azul*/
 }
 h1 {
  color: #fa8f1c;
@@ -19,11 +20,13 @@ h2 {
  text-shadow: none;
 }
 .user-menu {
- background: #FFFFFF;
+ /*background: #FFFFFF;*/
+  background: #B71236;/* rojo*/
 }
 .user-menu h2 {
  color: #4b565d;
- background: #ffffff;
+ /*background: #ffffff;*/
+  background: #CACACA;  /* tirado a plomo*/
  box-shadow: none;
 }
 .user-menu .nav-item > a {
@@ -35,10 +38,12 @@ h2 {
 }
 .grades .section-name {
  color: #ffffff;
- background-color: #7a8a94;
+ /*background-color: #7a8a94;*/
+ background-color: #145517;/*verde oscuro*/
 }
 
 .user-menu header {
  color: #fa8f1c;
- background: #EDEDED ;
+/* background: #EDEDED ;*/
+  background: #B9E441 ; /*amarillo verde*/
 }
