@@ -6,10 +6,10 @@ h1 {
  color: #fa8f1c;
 }
 .user-menu header h1 {
- color: #fa8f1c;
+ color: #FFFFFF;
 }
 h2 {
- color: #fa8f1c;
+ color: #282BB2;
  background-color: #7a8a94;
 }
 .header-main {
@@ -21,7 +21,7 @@ h2 {
 }
 .user-menu {
  /*background: #FFFFFF;*/
-  background: #B71236;/* rojo*/
+  background: #FFFFFF;/* blanco*/
 }
 .user-menu h2 {
  color: #4b565d;
@@ -30,10 +30,11 @@ h2 {
  box-shadow: none;
 }
 .user-menu .nav-item > a {
- color: #fa8f1c;
+ color: #282BB2; /*azul encendido*/
 }
 .user-menu .nav-item .plugin-ico,
 .user-menu .nav-item .course-ico {
+ /*background-color: #4b565d;*/
  background-color: #4b565d;
 }
 .grades .section-name {
@@ -43,7 +44,8 @@ h2 {
 }
 
 .user-menu header {
- color: #fa8f1c;
-/* background: #EDEDED ;*/
-  background: #B9E441 ; /*amarillo verde*/
+ color: #FFFFFF;
+/* color: #fa8f1c;
+ background: #EDEDED ;*/
+  background: #282BB2 ; /*azul encendido*/
 }
