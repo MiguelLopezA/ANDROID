@@ -2,9 +2,6 @@ var templates = [
     "root/externallib/text!root/plugins/mootes14/theme.css",
     "root/externallib/text!root/plugins/mootes14/login.html",
     "root/externallib/text!root/plugins/mootes14/program.html"
-	"root/externallib/text!root/plugins/grades/activities.html",
-    "root/externallib/text!root/plugins/grades/activities_total.html",
-    "root/externallib/text!root/plugins/grades/grades_table.html"
 ];
 
 define(templates, function (theme, loginForm, program) {
