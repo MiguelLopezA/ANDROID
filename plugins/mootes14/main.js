@@ -2,10 +2,9 @@ var templates = [
     "root/externallib/text!root/plugins/mootes14/theme.css",
     "root/externallib/text!root/plugins/mootes14/login.html",
     "root/externallib/text!root/plugins/mootes14/program.html"
-	"root/externallib/text!root/plugins/mootes14/prueba.html"
 ];
 
-define(templates, function (theme, loginForm, program,prueba) {
+define(templates, function (theme, loginForm, program) {
     var plugin = {
         settings: {
             name: "mootes14",
