@@ -1,0 +1,51 @@
+body {
+ /*background: #FFFFFF;*/
+background: # 7F90FF;  /* tirado a celeste azul*/
+}
+h1 {
+ color: #fa8f1c;
+}
+.user-menu header h1 {
+ color: #FFFFFF;
+}
+h2 {
+ color: #282BB2;
+ background-color: #7a8a94;
+}
+.header-main {
+ color: #fa8f1c;
+ background: #EDEDED;
+}
+#page-title {
+ text-shadow: none;
+}
+.user-menu {
+ /*background: #FFFFFF;*/
+  background: #FFFFFF;/* blanco*/
+}
+.user-menu h2 {
+ color: #4b565d;
+ /*background: #ffffff;*/
+  background: #CACACA;  /* tirado a plomo*/
+ box-shadow: none;
+}
+.user-menu .nav-item > a {
+ color: #282BB2; /*azul encendido*/
+}
+.user-menu .nav-item .plugin-ico,
+.user-menu .nav-item .course-ico {
+ /*background-color: #4b565d;*/
+ background-color: #4b565d;
+}
+.grades .section-name {
+ color: #ffffff;
+ /*background-color: #7a8a94;*/
+ background-color: #145517;/*verde oscuro*/
+}
+
+.user-menu header {
+ color: #FFFFFF;
+/* color: #fa8f1c;
+ background: #EDEDED ;*/
+  background: #282BB2 ; /*azul encendido*/
+}
