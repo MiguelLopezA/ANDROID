@@ -45,7 +45,7 @@ body {
   font-size: 16px;
   font-size: 1rem;
   line-height: 24px;
-  background: Blue url(../img/bg-orange.png);
+  background: # 7F90FF; url(../img/bg-orange.png);
 }
 /* =1.3 - Links
 --------------------------------------------------------*/
@@ -79,6 +79,8 @@ h1 {
   font-weight: normal;
 }
 h2 {
+  color: #282BB2;
+ background-color: #7a8a94;
   font-size: 17px;
   font-size: 1.0625rem;
   font-weight: normal;
@@ -509,13 +511,16 @@ hr {
   margin-bottom: 44px;
 }
 .header-main {
-  color: #ffffff;
+  
   height: 44px;
   line-height: 44px;
   overflow: hidden;
-  /*background: Blue;*/
-   background: Blue;
+  /*background: # 7F90FF;;*/
+ 
   border-bottom: 0;
+  
+   color: #fa8f1c;
+ background: #EDEDED;
 }
 .header-main .nav-main {
   float: left;
@@ -596,14 +601,14 @@ hr {
 /* - User menu on the left panel
 -------------------------------------------------------------------------- */
 .user-menu {
-  /*background: Blue;*/
-  background: #CACACA;  /* tirado a plomo*/
+  /*background: # 7F90FF;;*/ 
+  background: #FFFFFF;/* blanco*/
   padding-bottom: 40px;
   height: auto;
 }
 .user-menu header {
   padding: 10px;
-  background: Blue;
+  background: # 7F90FF;;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
@@ -622,7 +627,7 @@ hr {
 }
 .user-menu h2 {
   /*color: #ffffff;*/
-  color:Blue;
+  color:# 7F90FF;;
   font-size: .75rem;
   text-transform: uppercase;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
@@ -632,12 +637,14 @@ hr {
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.1) inset;
   padding-left: 14px;
 }
-.user-menu .nav-item {
+.user-menu .nav-item 
+ 
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .user-menu .nav-item > a {
-  color: #ffffff;
+color: #282BB2; /*azul encendido*/
+  
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   letter-spacing: .5px;
 }
@@ -652,6 +659,7 @@ hr {
   height: 24px;
   text-align: center;
   background-color: transparent;
+
   border-radius: 50%;
 }
 .user-menu .nav-item .plugin-ico img,
@@ -1186,12 +1194,12 @@ hr {
 }
 .path-messages .conversation .conversation-area .bubble-alt {
   background-color: #ffffff;
-  border-color: Blue;
+  border-color: # 7F90FF;;
   float: right;
 }
 .path-messages .conversation .conversation-area .bubble-alt:before {
   border-color: transparent;
-  border-left-color: Blue;
+  border-left-color: # 7F90FF;;
   left: auto;
   right: -16px;
 }
@@ -1589,7 +1597,7 @@ hr {
   letter-spacing: .5px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   padding: 10px;
-  background-color: Blue;
+  background-color: # 7F90FF;;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0;
@@ -1904,7 +1912,7 @@ div.jqi button.jqidefaultbutton {
   width: 100% !important;
   height: 100%;
   margin-top: 0 !important;
-  background-color: Blue;
+  background-color: # 7F90FF;;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
