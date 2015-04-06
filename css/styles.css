@@ -590,13 +590,14 @@ hr {
 }
 #panel-right,
 #panel-center {
-  background: #ffffff;
+  background: Red;
   box-shadow: -10px 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 /* - User menu on the left panel
 -------------------------------------------------------------------------- */
 .user-menu {
-  background: Blue;
+  /*background: Blue;*/
+  background: #CACACA;  /* tirado a plomo*/
   padding-bottom: 40px;
   height: auto;
 }
@@ -615,11 +616,13 @@ hr {
   font-size: 20px;
   font-size: 1.25rem;
   color: #ffffff;
+  
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   margin: 5px 0 0;
 }
 .user-menu h2 {
-  color: #ffffff;
+  /*color: #ffffff;*/
+  color:Blue;
   font-size: .75rem;
   text-transform: uppercase;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
