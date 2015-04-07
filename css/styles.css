@@ -663,7 +663,8 @@ color: #282BB2; /*azul encendido*/
   width: 24px;
   height: 24px;
   text-align: center;
-  background-color: transparent;
+  /*background-color: transparent;*/
+   background-color: #4b565d;
 
   border-radius: 50%;
 }
