@@ -595,7 +595,7 @@ hr {
 }
 #panel-right,
 #panel-center {
-  background: Red;
+  background: white;
   box-shadow: -10px 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 /* - User menu on the left panel
@@ -608,9 +608,14 @@ hr {
 }
 .user-menu header {
   padding: 10px;
-  background: # 7F90FF;;
+  /*background: # 7F90FF;;*/
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none;
+  
+   color: #FFFFFF;
+/* color: #fa8f1c;
+ background: #EDEDED ;*/
+  background: #282BB2 ; /*azul encendido*/
 }
 .user-menu header .img img {
   width: 55px;
