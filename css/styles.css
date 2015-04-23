@@ -40,7 +40,7 @@ html {
   font-size: 100%;
 }
 body {
-  color: #373636; /* Plomo oscuro */
+  color: #373636; /* Plomo oscuro */ 
  /* color: #666666; */ /*Plomo */
   font-family: Helvetica, sans-serif;
   font-size: 16px;
@@ -597,7 +597,7 @@ hr {
 }
 #panel-right,
 #panel-center {
-  background: white;
+  background: blue;  /*
   box-shadow: -10px 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 /* - User menu on the left panel
