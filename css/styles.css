@@ -618,6 +618,7 @@ hr {
 /* color: #fa8f1c;
  background: #EDEDED ;*/
   background: #282BB2 ; /*azul encendido*/
+   background-image: url(../img/head.png);
 }
 .user-menu header .img img {
   width: 55px;
