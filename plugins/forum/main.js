@@ -234,17 +234,7 @@ define(templates, function (filesTpl, discussionTpl, discussionsTpl, attachments
                         MM.plugins.forum._processDiscussionsQueue();
                     }
                 },
-                {
-                    logging: {
-                        method: 'mod_forum_view_forum',
-                        data: {
-                            forumid: forum.id
-                        },
-                        callBack: function() {
-                            MM.cache.invalidate();
-                        }
-                    }
-                },
+                null,
                 function (error) {
                     $("#info-" + forum.cmid, "#panel-right").attr("src", "img/info.png");
                     MM.popErrorMessage(error);
@@ -260,14 +250,6 @@ define(templates, function (filesTpl, discussionTpl, discussionsTpl, attachments
             var params = {
                 "discussionid": discussionId
             };
-
-            // We do logging here because discussions are pre-fetched.
-            MM.moodleLogging(
-                'mod_forum_view_forum_discussion',
-                {
-                    discussionid: discussionId
-                }
-            );
 
             MM.moodleWSCall(MM.plugins.forum.wsPrefix + "mod_forum_get_forum_discussion_posts",
                 params,

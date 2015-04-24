@@ -199,14 +199,7 @@ define(templates, function (assignTpl, submissionsTpl) {
                         );
                     }
                 },
-                {
-                    logging: {
-                        method: 'mod_assign_view_grading_table',
-                        data: {
-                            assignid: assign.id
-                        }
-                    }
-                },
+                null,
                 function (error) {
                     $("#info-" + assign.cmid, "#panel-right").attr("src", "img/info.png");
                     MM.popErrorMessage(error);
